@@ -42,7 +42,7 @@ y con las siguientes condiciones iniciales:
 
 
 
-Palabras clave: Circuito RLC; Controlador PID; Sistema de EDOs; Modelo matemático; Simulaciones numéricas
+Palabras clave: Regeneración de Globulos Rojos; Transfusión Sanguínea; Sistema de EDOs; Modelo matemático; Simulaciones numéricas
 
 ## Lista de archivos incluidos en el repositorio
 
