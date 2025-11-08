@@ -4,7 +4,7 @@
 
 ## Información del estudiante
 
-Paul A. Valle [05211261]; paul.valle@tectijuana.edu.mx
+Carlos Azael Ramirez [22212267]; L22212267@tectijuana.edu.mx
 
 Modelado de Sistemas Fisiológicos
 
@@ -32,17 +32,17 @@ La asignatura de Modelado de Sistemas Fisiológicos forma parte del plan de estu
 El siguiente modelo matemático de tres EDOs de primer orden es un modelo mecanicista de compartimento para la eritropoyesis después de la pérdida de sangre en personas sanas, fenómeno que se puede modelizar como un proceso dinámico no lineal.  Con respecto a los parámetros, X0 refleja la cantidad absoluta de células que se destinan al linaje eritroide y que maduran en el primer compartimento de células precursoras eritroides. Las tasas de transición y las tasas de mortalidad entre los compartimentos están dadas por k1, k2 y , estas tasas son independientes de la hormona eritropoyetina. La compensación de la pérdida de sangre se describe mediante un término de retroalimentación de los eritrocitos a las células en proliferación basado en la pérdida fraccional de eritrocitos. Con base en lo anterior, se introducen los parámetros y , que se utilizan para la descripción de las características individuales de la eritropoyesis. Se asume que cada individuo tiene un recuento medio de eritrocitos indicado por el parámetro Base.
 
 El sistema se resolvió con los siguientes parámetros de gamma y beta: 
-1. gamma = [0.769, 0.388, 0.510, 0.590, 0.262, 0.324, 0.356, 0.089, 0.243, 0.057];
-2. beta = [1.650, 0.867, 1.617, 2.615, 1.518, 2.676, 0.891, 2.557, 0.925, 0.089];
+1. gamma = [0.769; 0.388; 0.510; 0.590; 0.262; 0.324; 0.356; 0.089; 0.243; 0.057];
+2. beta = [1.650; 0.867; 1.617; 2.615; 1.518; 2.676; 0.891; 2.557; 0.925; 0.879];
 
 y con las siguientes condiciones iniciales:
-1. x1(0) = COLOCAR SUS CONDICIONES INICIALES;
-2. x2(0) = COLOCAR SUS CONDICIONES INICIALES;
-3. x3(0) = COLOCAR SUS CONDICIONES INICIALES;
+1. x1(0) = 59.0839   59.5650   58.6316   58.4209   59.0384   59.4062   59.1296   58.7870   59.2804   58.4502;
+2. x2(0) = 44.0625   44.4213   43.7253   43.5681   44.0286   44.3029   44.0967   43.8411   44.2091   43.5900;
+3. x3(0) = 886.2578   893.4744   879.4738   876.3136   885.5757   891.0927   886.9441   881.8044   889.2067   876.7528;
 
 
 
-Palabras clave: ?; ?; ?; ?; ?.
+Palabras clave: Circuito RLC; Controlador PID; Sistema de EDOs; Modelo matemático; Simulaciones numéricas
 
 ## Lista de archivos incluidos en el repositorio
 
