@@ -2,7 +2,7 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: 'MATLAB, SPYDER'
+title: 'MATLAB'
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
@@ -12,13 +12,13 @@ authors:
     family-names: Ramirez
     email: L22212267@tectijuana.edu.mx
     affiliation: TecNM-ITT
-repository-code: 'https://github.com/carlosazaelr/Practica4MSF'
+repository-code: 'https://github.com/carlosazaelr/Practica10MSF'
 keywords:
-  - Circuito RLC
-  - Controlador PID
-  - Sistema cardiovascular
+  - Regeneración de Globulos Rojos
+  - Transfusión Sanguínea
+  - Sistema de EDOs
   - Modelo matemático
   - Simulaciones numéricas
 license: BSD-2-Clause
 version: '1.0'
-date-released: '2025-10-17'
+date-released: '2025-11-07'
